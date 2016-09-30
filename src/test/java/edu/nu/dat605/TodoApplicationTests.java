@@ -1,4 +1,4 @@
-package edu.nu.dat605.todo;
+package edu.nu.dat605;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

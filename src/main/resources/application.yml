@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: todo
+  output:
+    ansi:
+      enabled: ALWAYS
+  profiles:
+    active: local
+  mvc:
+    view:
+      suffix: .html
+
+  jpa:
+      show-sql: true
+      generate-ddl: false
+      hibernate:
+        ddl-auto: validate
+---
+spring:
+  profiles: local
+
+---
+spring:
+  profiles: cloud
